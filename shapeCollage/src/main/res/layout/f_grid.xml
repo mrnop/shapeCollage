@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:navigationIcon="?attr/homeAsUpIndicator">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myGrid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="80dp"
+    android:gravity="center"
+    android:horizontalSpacing="4dp"
+    android:numColumns="auto_fit"
+    android:padding="4dp"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="4dp" />
+</LinearLayout>

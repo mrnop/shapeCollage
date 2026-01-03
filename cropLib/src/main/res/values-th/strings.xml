@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">ยกเลิก</string>
+    <string name="no_storage_card">ไม่พบ SD การ์ด</string>
+    <string name="not_enough_space">พื้นที่ไม่พอ</string>
+    <string name="preparing_card">เตรียมการ์ด</string>
+    <string name="save">บันทึก</string>
+    <string name="saving_image">บันทึกภาพ</string>
+    <string name="action_ok">Ok</string>
+    <string name="crop_title">Crop Image</string>
+</resources>

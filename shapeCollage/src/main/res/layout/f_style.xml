@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:staggered="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80ccccff" >
+
+    <com.isarainc.text.TextPreview
+        android:id="@+id/drawView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:drawingCacheQuality="high"
+        android:padding="1dp" />
+
+    <LinearLayout
+        android:id="@+id/buttonBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drawView"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="37dp" >
+
+            <Spinner
+                android:id="@+id/spinnerStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinnerFont"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/changeColor1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:text="Color"
+                android:textSize="6sp" />
+
+            <Button
+                android:id="@+id/changeColor2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:text="Color"
+                android:textSize="6sp" />
+
+            <Button
+                android:id="@+id/changeColor3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:text="Color"
+                android:textSize="6sp" />
+
+            <Button
+                android:id="@+id/changeColor4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:text="Color"
+                android:textSize="6sp" />
+
+            <Button
+                android:id="@+id/changeColor5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:text="Color"
+                android:textSize="6sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

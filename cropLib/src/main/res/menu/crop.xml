@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_check"
+        android:title="@string/action_ok"
+        android:icon="@drawable/ic_rotate_left"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_loader"
+        android:enabled="false"
+        android:icon="@drawable/vector_loader_animated"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+</menu>

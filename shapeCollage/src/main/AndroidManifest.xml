@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:installLocation="auto"
+    android:versionCode="7"
+    android:versionName="1.0.6" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:name="com.isarainc.main.App"
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.isarainc.shapecollage.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+<!--         <meta-data -->
+<!--             android:name="i-mobile_DebugLogging" -->
+<!--             android:value="true" /> -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+        <activity
+            android:name="com.isarainc.main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.isarainc.shapecollage.HomeActivity"
+            android:label="@string/app_shapecollage"
+            android:screenOrientation="portrait"
+
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.isarainc.namecollage.collage.CollagePickerActivity"
+            android:label="@string/app_namecollage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.isarainc.namecollage.HomeActivity"
+            android:label="@string/app_namecollage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity android:name="com.isarainc.frame.collage.HomeActivity"
+            android:label="@string/app_framecollage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name="com.isarainc.frame.montage.HomeActivity"
+            android:label="@string/app_framemontage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name="com.isarainc.crop.CropActivity" />
+        <activity
+            android:name="com.isarainc.main.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.isarainc.polypicker.ImagePickerActivity"
+            android:label="@string/select_pictures"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            </activity>
+
+
+    </application>
+
+</manifest>

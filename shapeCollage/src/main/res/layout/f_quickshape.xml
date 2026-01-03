@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RootView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:drawSelectorOnTop="true"
+        android:horizontalSpacing="0.5dp"
+        android:listSelector="@android:color/background_light"
+        android:numColumns="3"
+        android:verticalSpacing="0.5dp" />
+
+
+</RelativeLayout>

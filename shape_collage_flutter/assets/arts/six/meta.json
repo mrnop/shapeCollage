@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "name" : "Size",
+  "icon" : "icon.png",
+  "description" : "Number 6 for birthday",
+  "type" : "ShapeCollage",
+
+  "init_value" : {
+    "inputType" : "multiple_picture",
+    "borderColor" : "#FFFFFF",
+    "borderSize" : 20 ,
+    "blackground" : "#FFFF00",
+    "gridSize" : 13,
+    "collageSize" : 180,
+    "shape" :  {
+       "shapeType":"Text",
+       "text":"6"
+     }
+  }
+
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name" : "Montage",
+  "icon" : "icon.png",
+  "description" : "Text",
+  "type" : "FrameMontage",
+  "init_value" : {
+    "inputType" : "picture",
+    "crop" : "true",
+     "blackground" : "#FFFFFF"
+
+  }
+
+}

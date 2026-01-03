@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="height_horizontal_wheel_progress_line">20dp</dimen>
+    <dimen name="width_horizontal_wheel_progress_line">2dp</dimen>
+    <dimen name="margin_horizontal_wheel_progress_line">10dp</dimen>
+</resources>

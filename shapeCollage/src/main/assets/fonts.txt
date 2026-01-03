@@ -1,0 +1,2 @@
+{"languages":"th,en","patch":1,"name":"bangli-ko-sa-na.ttf"}
+{"languages":"th,en","patch":0,"name":"TS-Country-EE-NP.ttf"}

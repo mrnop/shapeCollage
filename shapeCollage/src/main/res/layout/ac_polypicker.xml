@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/action_btn_contianer" />
+
+        <LinearLayout
+            android:id="@+id/action_btn_contianer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:divider="?android:dividerHorizontal"
+            android:dividerPadding="8dp"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <FrameLayout
+                android:id="@+id/selected_photos_container_frame"
+                android:layout_width="match_parent"
+                android:layout_height="61dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="false"
+                    android:foregroundGravity="left"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp">
+
+                    <LinearLayout
+                        android:id="@+id/selected_photos_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:animateLayoutChanges="true"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:visibility="gone" />
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/selected_photos_empty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="No images selected"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

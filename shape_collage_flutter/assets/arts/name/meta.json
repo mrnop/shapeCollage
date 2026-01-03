@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "name" : "Love",
+  "icon" : "icon.png",
+  "description" : "Text",
+  "type" : "NameCollage",
+  "init_value" : {
+    "text" : "Love" ,
+    "font" : "LoveMeTender.ttf" ,
+    "blackground" : "#FF00FF",
+    "gridSize" : 13,
+    "collageSize" : 170
+
+  }
+
+}

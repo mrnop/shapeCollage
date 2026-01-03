@@ -1,0 +1,1 @@
+{"identifier":"sepia3","minVersion":"1.0.0","processors":[{"name":"sepiaToningEffect","parameters":{"depth":3,"red":0 ,"green":0 ,"blue":10 }}]}

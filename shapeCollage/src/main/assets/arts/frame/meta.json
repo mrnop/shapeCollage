@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "name" : "Frame",
+  "icon" : "icon.png",
+  "description" : "Text",
+  "type" : "FrameCollage",
+  "init_value" : {
+    "inputType" : "multiple_picture",
+     "blackground" : "#FFFFFF"
+
+  }
+
+}

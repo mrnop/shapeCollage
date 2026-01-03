@@ -1,0 +1,535 @@
+> Task :cropLib:preBuild UP-TO-DATE
+> Task :cropLib:preDebugBuild UP-TO-DATE
+> Task :cropLib:generateDebugResValues UP-TO-DATE
+> Task :cropLib:generateDebugResources UP-TO-DATE
+> Task :cropLib:packageDebugResources UP-TO-DATE
+> Task :cropLib:parseDebugLocalResources UP-TO-DATE
+> Task :cropLib:generateDebugRFile UP-TO-DATE
+> Task :cropLib:javaPreCompileDebug UP-TO-DATE
+> Task :cropLib:compileDebugJavaWithJavac UP-TO-DATE
+> Task :cropLib:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :holoColorPicker:preBuild UP-TO-DATE
+> Task :holoColorPicker:preDebugBuild UP-TO-DATE
+> Task :holoColorPicker:generateDebugResValues UP-TO-DATE
+> Task :holoColorPicker:generateDebugResources UP-TO-DATE
+> Task :holoColorPicker:packageDebugResources UP-TO-DATE
+> Task :holoColorPicker:parseDebugLocalResources UP-TO-DATE
+> Task :holoColorPicker:generateDebugRFile UP-TO-DATE
+> Task :holoColorPicker:javaPreCompileDebug UP-TO-DATE
+> Task :holoColorPicker:compileDebugJavaWithJavac UP-TO-DATE
+> Task :holoColorPicker:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :newQuickAction3D:preBuild UP-TO-DATE
+> Task :newQuickAction3D:preDebugBuild UP-TO-DATE
+> Task :newQuickAction3D:generateDebugResValues UP-TO-DATE
+> Task :newQuickAction3D:generateDebugResources UP-TO-DATE
+> Task :newQuickAction3D:packageDebugResources UP-TO-DATE
+> Task :newQuickAction3D:parseDebugLocalResources UP-TO-DATE
+> Task :newQuickAction3D:generateDebugRFile UP-TO-DATE
+> Task :newQuickAction3D:javaPreCompileDebug UP-TO-DATE
+> Task :newQuickAction3D:compileDebugJavaWithJavac UP-TO-DATE
+> Task :newQuickAction3D:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :numberPickerLib:preBuild UP-TO-DATE
+> Task :numberPickerLib:preDebugBuild UP-TO-DATE
+> Task :numberPickerLib:generateDebugResValues UP-TO-DATE
+> Task :numberPickerLib:generateDebugResources UP-TO-DATE
+> Task :numberPickerLib:packageDebugResources UP-TO-DATE
+> Task :numberPickerLib:parseDebugLocalResources UP-TO-DATE
+> Task :numberPickerLib:generateDebugRFile UP-TO-DATE
+> Task :numberPickerLib:javaPreCompileDebug UP-TO-DATE
+> Task :numberPickerLib:compileDebugJavaWithJavac UP-TO-DATE
+> Task :numberPickerLib:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :shapeCollage:greendaoPrepare UP-TO-DATE
+> Task :shapeCollage:greendao UP-TO-DATE
+> Task :shapeCollage:preBuild UP-TO-DATE
+> Task :shapeCollage:preDebugBuild UP-TO-DATE
+> Task :shapeCollage:javaPreCompileDebug UP-TO-DATE
+> Task :cropLib:compileDebugLibraryResources UP-TO-DATE
+> Task :holoColorPicker:compileDebugLibraryResources UP-TO-DATE
+> Task :newQuickAction3D:compileDebugLibraryResources UP-TO-DATE
+> Task :numberPickerLib:compileDebugLibraryResources UP-TO-DATE
+> Task :cropLib:writeDebugAarMetadata UP-TO-DATE
+> Task :holoColorPicker:writeDebugAarMetadata UP-TO-DATE
+> Task :newQuickAction3D:writeDebugAarMetadata UP-TO-DATE
+> Task :numberPickerLib:writeDebugAarMetadata UP-TO-DATE
+> Task :shapeCollage:checkDebugAarMetadata UP-TO-DATE
+> Task :shapeCollage:generateDebugResValues UP-TO-DATE
+> Task :shapeCollage:mapDebugSourceSetPaths UP-TO-DATE
+> Task :shapeCollage:generateDebugResources UP-TO-DATE
+> Task :shapeCollage:mergeDebugResources UP-TO-DATE
+> Task :shapeCollage:packageDebugResources UP-TO-DATE
+> Task :shapeCollage:parseDebugLocalResources UP-TO-DATE
+> Task :shapeCollage:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :cropLib:extractDeepLinksDebug UP-TO-DATE
+> Task :cropLib:processDebugManifest UP-TO-DATE
+> Task :holoColorPicker:extractDeepLinksDebug UP-TO-DATE
+> Task :holoColorPicker:processDebugManifest UP-TO-DATE
+> Task :newQuickAction3D:extractDeepLinksDebug UP-TO-DATE
+> Task :newQuickAction3D:processDebugManifest UP-TO-DATE
+> Task :numberPickerLib:extractDeepLinksDebug UP-TO-DATE
+> Task :numberPickerLib:processDebugManifest UP-TO-DATE
+> Task :shapeCollage:extractDeepLinksDebug UP-TO-DATE
+> Task :shapeCollage:processDebugMainManifest UP-TO-DATE
+> Task :shapeCollage:processDebugManifest UP-TO-DATE
+> Task :shapeCollage:processDebugManifestForPackage UP-TO-DATE
+> Task :shapeCollage:processDebugResources UP-TO-DATE
+
+> Task :shapeCollage:compileDebugJavaWithJavac FAILED
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageResizer.java:32: error: cannot find symbol
+import com.isarainc.shapecollage.BuildConfig;
+                                ^
+  symbol:   class BuildConfig
+  location: package com.isarainc.shapecollage
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageWorker.java:35: error: cannot find symbol
+import com.isarainc.shapecollage.BuildConfig;
+                                ^
+  symbol:   class BuildConfig
+  location: package com.isarainc.shapecollage
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageWorker.java:37: error: package io.fabric.sdk.android does not exist
+import io.fabric.sdk.android.Fabric;
+                            ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageCache.java:50: error: cannot find symbol
+import com.isarainc.shapecollage.BuildConfig;
+                                ^
+  symbol:   class BuildConfig
+  location: package com.isarainc.shapecollage
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/RecyclingBitmapDrawable.java:24: error: cannot find symbol
+import com.isarainc.shapecollage.BuildConfig;
+                                ^
+  symbol:   class BuildConfig
+  location: package com.isarainc.shapecollage
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:16: error: package android.support.v4.view does not exist
+import android.support.v4.view.MenuItemCompat;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:19: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.ShareActionProvider;
+                                ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:33: error: cannot find symbol
+import com.google.android.gms.ads.InterstitialAd;
+                                 ^
+  symbol:   class InterstitialAd
+  location: package com.google.android.gms.ads
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:35: error: cannot find symbol
+import com.google.android.gms.ads.NativeExpressAdView;
+                                 ^
+  symbol:   class NativeExpressAdView
+  location: package com.google.android.gms.ads
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:88: error: cannot find symbol
+    private InterstitialAd mInterstitial;
+            ^
+  symbol:   class InterstitialAd
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:89: error: cannot find symbol
+    private NativeExpressAdView adView;
+            ^
+  symbol:   class NativeExpressAdView
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:94: error: cannot find symbol
+    private ShareActionProvider actionProvider;
+            ^
+  symbol:   class ShareActionProvider
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:19: error: package android.support.v4.view does not exist
+import android.support.v4.view.MenuItemCompat;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.ShareActionProvider;
+                                ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:42: error: cannot find symbol
+import com.google.android.gms.ads.InterstitialAd;
+                                 ^
+  symbol:   class InterstitialAd
+  location: package com.google.android.gms.ads
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:100: error: cannot find symbol
+    private ShareActionProvider actionProvider;
+            ^
+  symbol:   class ShareActionProvider
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:104: error: cannot find symbol
+    private InterstitialAd mInterstitial;
+            ^
+  symbol:   class InterstitialAd
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/collage/HomeActivity.java:16: error: package android.support.v4.view does not exist
+import android.support.v4.view.MenuItemCompat;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/collage/HomeActivity.java:19: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.ShareActionProvider;
+                                ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/collage/HomeActivity.java:36: error: cannot find symbol
+import com.google.android.gms.ads.InterstitialAd;
+                                 ^
+  symbol:   class InterstitialAd
+  location: package com.google.android.gms.ads
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/collage/HomeActivity.java:82: error: cannot find symbol
+    private ShareActionProvider actionProvider;
+            ^
+  symbol:   class ShareActionProvider
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/collage/HomeActivity.java:89: error: cannot find symbol
+    private InterstitialAd mInterstitial;
+            ^
+  symbol:   class InterstitialAd
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceBaseAdapter.java:22: error: package android.support.v7.view does not exist
+import android.support.v7.view.ActionMode;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceBaseAdapter.java:79: error: package ActionMode does not exist
+public abstract class MultiChoiceBaseAdapter extends BaseAdapter implements ActionMode.Callback, MultiChoiceAdapter {
+                                                                                      ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceAdapterHelper.java:19: error: package android.support.v7.view does not exist
+import android.support.v7.view.ActionMode;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceBaseAdapter.java:204: error: cannot find symbol
+    public void onDestroyActionMode(ActionMode mode) {
+                                    ^
+  symbol:   class ActionMode
+  location: class MultiChoiceBaseAdapter
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceAdapterHelper.java:24: error: cannot find symbol
+    private ActionMode actionMode;
+            ^
+  symbol:   class ActionMode
+  location: class MultiChoiceAdapterHelper
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceSimpleCursorAdapter.java:23: error: package android.support.v4.widget does not exist
+import android.support.v4.widget.SimpleCursorAdapter;
+                                ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceSimpleCursorAdapter.java:24: error: package android.support.v7.view does not exist
+import android.support.v7.view.ActionMode;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceSimpleCursorAdapter.java:36: error: cannot find symbol
+public abstract class MultiChoiceSimpleCursorAdapter extends SimpleCursorAdapter implements ActionMode.Callback,
+                                                             ^
+  symbol: class SimpleCursorAdapter
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceSimpleCursorAdapter.java:36: error: package ActionMode does not exist
+public abstract class MultiChoiceSimpleCursorAdapter extends SimpleCursorAdapter implements ActionMode.Callback,
+                                                                                                      ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceSimpleCursorAdapter.java:100: error: cannot find symbol
+    public void onDestroyActionMode(ActionMode mode) {
+                                    ^
+  symbol:   class ActionMode
+  location: class MultiChoiceSimpleCursorAdapter
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceArrayAdapter.java:23: error: package android.support.v7.view does not exist
+import android.support.v7.view.ActionMode;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceArrayAdapter.java:34: error: package ActionMode does not exist
+public abstract class MultiChoiceArrayAdapter<T> extends ArrayAdapter<T> implements ActionMode.Callback,
+                                                                                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/multichoiceadapter/MultiChoiceArrayAdapter.java:111: error: cannot find symbol
+    public void onDestroyActionMode(ActionMode mode) {
+                                    ^
+  symbol:   class ActionMode
+  location: class MultiChoiceArrayAdapter<T>
+  where T is a type-variable:
+    T extends Object declared in class MultiChoiceArrayAdapter
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/HomeActivity.java:14: error: package android.support.v4.view does not exist
+import android.support.v4.view.MenuItemCompat;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/HomeActivity.java:17: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.ShareActionProvider;
+                                ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/HomeActivity.java:32: error: cannot find symbol
+import com.google.android.gms.ads.InterstitialAd;
+                                 ^
+  symbol:   class InterstitialAd
+  location: package com.google.android.gms.ads
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/HomeActivity.java:70: error: cannot find symbol
+    private ShareActionProvider actionProvider;
+            ^
+  symbol:   class ShareActionProvider
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/HomeActivity.java:73: error: cannot find symbol
+    private InterstitialAd mInterstitial;
+            ^
+  symbol:   class InterstitialAd
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/collage/CollagePickerActivity.java:8: error: package android.support.v7.view does not exist
+import android.support.v7.view.ActionMode;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/collage/CollagePickerActivity.java:97: error: cannot find symbol
+        public boolean onCreateActionMode(ActionMode actionMode, Menu menu) {
+                                          ^
+  symbol:   class ActionMode
+  location: class CollagePickerActivity.CollageAdapter
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/collage/CollagePickerActivity.java:116: error: cannot find symbol
+        public boolean onPrepareActionMode(ActionMode actionMode, Menu menu) {
+                                           ^
+  symbol:   class ActionMode
+  location: class CollagePickerActivity.CollageAdapter
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/namecollage/collage/CollagePickerActivity.java:122: error: cannot find symbol
+        public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
+                                           ^
+  symbol:   class ActionMode
+  location: class CollagePickerActivity.CollageAdapter
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/main/MainActivity.java:21: error: package android.support.v4.widget does not exist
+import android.support.v4.widget.NestedScrollView;
+                                ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/main/MainActivity.java:91: error: cannot find symbol
+    private com.google.android.gms.ads.InterstitialAd admobInterstitial;
+                                      ^
+  symbol:   class InterstitialAd
+  location: package com.google.android.gms.ads
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/main/SplashActivity.java:17: error: package com.crashlytics.android does not exist
+import com.crashlytics.android.Crashlytics;
+                              ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/main/SplashActivity.java:18: error: package io.fabric.sdk.android does not exist
+import io.fabric.sdk.android.Fabric;
+                            ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/main/App.java:5: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatDelegate;
+                             ^
+warning: unknown enum constant Mode.LOCAL
+  reason: class file for com.facebook.infer.annotation.Nullsafe$Mode not found
+warning: unknown enum constant Mode.LOCAL
+warning: unknown enum constant Mode.LOCAL
+warning: unknown enum constant Mode.LOCAL
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/ads/AdsAdapter.java:82: error: cannot find symbol
+        Picasso.with(context)
+               ^
+  symbol:   method with(Context)
+  location: class Picasso
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/stickers/StickerFragment.java:124: error: cannot find symbol
+                Picasso.with(context).load(imageFilePath)
+                       ^
+  symbol:   method with(Context)
+  location: class Picasso
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/stickers/StickerFragment.java:128: error: cannot find symbol
+                Picasso.with(context).load(picture)
+                       ^
+  symbol:   method with(Context)
+  location: class Picasso
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/layers/Layer.java:51: error: cannot find symbol
+        deleteBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.icon_delete);
+                                                                                      ^
+  symbol:   variable icon_delete
+  location: class drawable
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageWorker.java:191: error: cannot find symbol
+            if (BuildConfig.DEBUG) {
+                ^
+  symbol:   variable BuildConfig
+  location: class ImageWorker
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageWorker.java:212: error: cannot find symbol
+                if (BuildConfig.DEBUG) {
+                    ^
+  symbol:   variable BuildConfig
+  location: class ImageWorker
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageWorker.java:258: error: cannot find symbol
+            if (BuildConfig.DEBUG) {
+                ^
+  symbol:   variable BuildConfig
+  location: class ImageWorker.BitmapWorkerTask
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageWorker.java:293: error: cannot find symbol
+                    Fabric.getLogger().e("ImageWorker",t.getMessage());
+                    ^
+  symbol:   variable Fabric
+  location: class ImageWorker.BitmapWorkerTask
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageWorker.java:316: error: cannot find symbol
+            if (BuildConfig.DEBUG) {
+                ^
+  symbol:   variable BuildConfig
+  location: class ImageWorker.BitmapWorkerTask
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageWorker.java:337: error: cannot find symbol
+                if (BuildConfig.DEBUG) {
+                    ^
+  symbol:   variable BuildConfig
+  location: class ImageWorker.BitmapWorkerTask
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageResizer.java:95: error: cannot find symbol
+        if (BuildConfig.DEBUG) {
+            ^
+  symbol:   variable BuildConfig
+  location: class ImageResizer
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageCache.java:135: error: cannot find symbol
+            if (BuildConfig.DEBUG) {
+                ^
+  symbol:   variable BuildConfig
+  location: class ImageCache
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageCache.java:216: error: cannot find symbol
+                            if (BuildConfig.DEBUG) {
+                                ^
+  symbol:   variable BuildConfig
+  location: class ImageCache
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageCache.java:301: error: cannot find symbol
+        if (BuildConfig.DEBUG && memValue != null) {
+            ^
+  symbol:   variable BuildConfig
+  location: class ImageCache
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageCache.java:331: error: cannot find symbol
+                        if (BuildConfig.DEBUG) {
+                            ^
+  symbol:   variable BuildConfig
+  location: class ImageCache
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageCache.java:403: error: cannot find symbol
+            if (BuildConfig.DEBUG) {
+                ^
+  symbol:   variable BuildConfig
+  location: class ImageCache
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageCache.java:413: error: cannot find symbol
+                    if (BuildConfig.DEBUG) {
+                        ^
+  symbol:   variable BuildConfig
+  location: class ImageCache
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageCache.java:434: error: cannot find symbol
+                    if (BuildConfig.DEBUG) {
+                        ^
+  symbol:   variable BuildConfig
+  location: class ImageCache
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/ImageCache.java:455: error: cannot find symbol
+                        if (BuildConfig.DEBUG) {
+                            ^
+  symbol:   variable BuildConfig
+  location: class ImageCache
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/util/RecyclingBitmapDrawable.java:95: error: cannot find symbol
+            if (BuildConfig.DEBUG) {
+                ^
+  symbol:   variable BuildConfig
+  location: class RecyclingBitmapDrawable
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/shape/ImageSearchDialog.java:111: error: <anonymous com.isarainc.shapecollage.shape.ImageSearchDialog$1$1$1> is not abstract and does not override abstract method onBitmapFailed(Exception,Drawable) in Target
+                             target = new Target() {
+                                                   ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/shape/ImageSearchDialog.java:122: error: method does not override or implement a method from a supertype
+                                @Override
+                                ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/shape/ImageSearchDialog.java:134: error: cannot find symbol
+                            Picasso.with(getActivity()).load(imageUrl).into(target);
+                                   ^
+  symbol:   method with(FragmentActivity)
+  location: class Picasso
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/shape/ImageSearchDialog.java:205: error: <anonymous com.isarainc.shapecollage.shape.ImageSearchDialog$2$1$1> is not abstract and does not override abstract method onBitmapFailed(Exception,Drawable) in Target
+									target = new Target() {
+									                      ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/shape/ImageSearchDialog.java:232: error: method does not override or implement a method from a supertype
+										@Override
+										^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/shape/ImageSearchDialog.java:246: error: cannot find symbol
+										Picasso.with(getActivity()).load(imageUrl).into(target);
+										       ^
+  symbol:   method with(FragmentActivity)
+  location: class Picasso
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:389: error: incompatible types: String cannot be converted to OnInitializationCompleteListener
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544~3347511713");
+                                                      ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:391: error: cannot find symbol
+        adView = (NativeExpressAdView) findViewById(R.id.adView);
+                  ^
+  symbol:   class NativeExpressAdView
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:394: error: cannot find symbol
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                ^
+  symbol:   method addTestDevice(String)
+  location: class Builder
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:398: error: cannot find symbol
+        mInterstitial = new InterstitialAd(this);
+                            ^
+  symbol:   class InterstitialAd
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:401: error: cannot find symbol
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice(
+                                                     ^
+  symbol:   method addTestDevice(String)
+  location: class Builder
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:826: error: cannot find symbol
+        actionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(actionItem);
+                          ^
+  symbol:   class ShareActionProvider
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:826: error: cannot find symbol
+        actionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(actionItem);
+                                               ^
+  symbol:   variable MenuItemCompat
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:828: error: cannot find symbol
+                .setShareHistoryFileName(ShareActionProvider.DEFAULT_SHARE_HISTORY_FILE_NAME);
+                                         ^
+  symbol:   variable ShareActionProvider
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:831: error: package ShareActionProvider does not exist
+                .setOnShareTargetSelectedListener(new ShareActionProvider.OnShareTargetSelectedListener() {
+                                                                         ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:834: error: cannot find symbol
+                            ShareActionProvider actionProvider, Intent intent) {
+                            ^
+  symbol: class ShareActionProvider
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:832: error: method does not override or implement a method from a supertype
+                    @Override
+                    ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:853: error: constant expression required
+            case R.id.save:
+                     ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:860: error: cannot find symbol
+                        .title(R.string.saving_image)
+                                       ^
+  symbol:   variable saving_image
+  location: class string
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:880: error: constant expression required
+            case R.id.share:
+                     ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/shapecollage/HomeActivity.java:896: error: cannot find symbol
+                        .addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
+                        ^
+  symbol:   method addTestDevice(String)
+  location: class Builder
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:151: error: cannot find symbol
+        mInterstitial = new InterstitialAd(this);
+                            ^
+  symbol:   class InterstitialAd
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:154: error: cannot find symbol
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice(
+                                                     ^
+  symbol:   method addTestDevice(String)
+  location: class Builder
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:925: error: cannot find symbol
+        actionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(actionItem);
+                          ^
+  symbol:   class ShareActionProvider
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:925: error: cannot find symbol
+        actionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(actionItem);
+                                               ^
+  symbol:   variable MenuItemCompat
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:927: error: cannot find symbol
+                .setShareHistoryFileName(ShareActionProvider.DEFAULT_SHARE_HISTORY_FILE_NAME);
+                                         ^
+  symbol:   variable ShareActionProvider
+  location: class HomeActivity
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:932: error: package ShareActionProvider does not exist
+                .setOnShareTargetSelectedListener(new ShareActionProvider.OnShareTargetSelectedListener() {
+                                                                         ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:935: error: cannot find symbol
+                            ShareActionProvider actionProvider, Intent intent) {
+                            ^
+  symbol: class ShareActionProvider
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:933: error: method does not override or implement a method from a supertype
+                    @Override
+                    ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:961: error: constant expression required
+            case R.id.save:
+                     ^
+/Volumes/Data/Dev/ShapeCollage/shapeCollage/src/main/java/com/isarainc/frame/montage/HomeActivity.java:966: error: cannot find symbol
+                        .title(R.string.saving_image)
+                                       ^
+  symbol:   variable saving_image
+  location: class string
+warning: unknown enum constant Mode.LOCAL
+warning: unknown enum constant Mode.LOCAL
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+6 warnings
+only showing the first 100 errors, of 155 total; use -Xmaxerrs if you would like to see more
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':shapeCollage:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+65 actionable tasks: 1 executed, 64 up-to-date

@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+android {
+    namespace 'com.michaelnovakjr.numberpicker'
+    compileSdkVersion 34
+    
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+dependencies {
+}

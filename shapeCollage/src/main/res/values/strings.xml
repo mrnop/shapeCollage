@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photo &amp; Shape Collage</string>
+    <string name="app_namecollage">Name Collage</string>
+    <string name="app_framecollage" translatable="false">Frame Collage</string>
+    <string name="app_framemontage" translatable="false">Frame Montage</string>
+    <string name="action_share">Share</string>
+    <string name="action_save">Save</string>
+    <string name="prompt1">Enter Text</string>
+    <string name="more">Shape Collage</string>
+    <string name="rate_me_title">Rate Us</string>
+    <string name="rate_me_message">You really seem to like this app, It would be great if you took a moment to rate it.</string>
+    <string name="rate_me_ok">Rate Me</string>
+    <string name="rate_me_later">Not now</string>
+    <string name="rate_me_no">Never</string>
+    <string name="quit">Exit</string>
+    <string name="really_quit">Do you really want to exit!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="wait">Wait......</string>
+    <string name="no_image">No image found! Try again with another image</string>
+    <string name="download_fail">Download image failed, Please try again or check your network connection</string>
+    <string name="use_square_title">Using square image</string>
+    <string name="use_square_desc">Convert all small image to square before arranged</string>
+    <string name="use_grid_title">Simple grid arrangement</string>
+    <string name="shape">Shape</string>
+    <string name="custom">Custom</string>
+    <string name="border">Border</string>
+    <string name="square">Square</string>
+    <string name="tileStyle">Grid Tile</string>
+    <string name="background">Background</string>
+    <string name="background_color">Color</string>
+    <string name="use_grid_desc">Using simple grid for small image arrangement</string>
+
+
+    <string name="dialog_set_number">Set</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_picker_title">Number of Frame</string>
+    <string name="app_shapecollage">Shape Collage</string>
+    <string name="newLine">Text</string>
+    <string name="done">Done</string>
+    <string name="share_msg">Photo &amp; Shape Collage</string>
+    <string name="textsize">Size</string>
+    <string name="warn_exit">Press again to Exit</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_select_all">Select All</string>
+    <string name="action_select">Select</string>
+    <string name="action_reset_list">Reset</string>
+    <string name="xmas">xmas</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="sponsored">Sponsored</string>
+    <string name="try_more">Try More</string>
+    <string name="processing_image">Processing image</string>
+    <string name="downloading_image">Downloading image</string>
+    <string name="pick_image_intent_text">Select picture</string>
+    <string name="arts">Select style</string>
+    <string name="select_pictures">Select pictures</string>
+    <string name="please_wait">Please wait</string>
+    <string name="loading_image">Loading image</string>
+    <string name="gen_filter_thumb">Generating filter thumbnail</string>
+    <string name="saving_image">Saving image</string>
+</resources>

@@ -1,0 +1,4 @@
+{"identifier":"doG","minVersion":"1.0.0","processors":[
+  {"name":"DoGFilter","parameters":{"radius1":0.55 , "radius2":25, "invert":"true", "normalize":"true" }}
+
+]}

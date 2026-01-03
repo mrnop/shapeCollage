@@ -1,0 +1,64 @@
+
+
+        <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/textControl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:text="name"
+                android:hint="@string/prompt1"
+ />
+
+            <Spinner
+                android:id="@+id/spinnerFont"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="right" >
+
+
+                <LinearLayout
+                    android:id="@+id/buttonBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="right"
+        >
+                <Button
+                    android:id="@+id/ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/cancel"
+                    android:text="@string/btn_ok" />
+
+
+                <Button
+                    android:id="@+id/cancel"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_canvas"
+                    android:text="@string/btn_cancel" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+

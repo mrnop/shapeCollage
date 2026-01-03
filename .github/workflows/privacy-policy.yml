@@ -1,0 +1,27 @@
+name: Generate Privacy Policy HTML
+
+on:
+  push:
+    paths:
+      - 'PRIVACY_POLICY.md'
+
+jobs:
+  convert-to-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Convert Markdown to HTML
+        run: pandoc PRIVACY_POLICY.md -f markdown -t html -s -o privacy_policy.html
+
+      - name: Commit and Push HTML
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add privacy_policy.html
+          git commit -m "Update privacy_policy.html" || exit 0
+          git push

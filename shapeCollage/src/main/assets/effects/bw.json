@@ -1,0 +1,1 @@
+{"identifier":"bw","minVersion":"1.0.0","processors":[{"name":"colorMatrixTransform","parameters":{"operations":[{"operation":"saturation","value":0.0}]}}]}

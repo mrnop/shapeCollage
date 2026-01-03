@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">เรียงภาพเป็นรูป</string>
+    <string name="app_namecollage">เรียงภาพเป็นชื่อ</string>
+    <string name="action_share"> แชร์</string>
+    <string name="prompt1">ข้อความ</string>
+    <string name="more">เรียงภาพเป็นรูปทรง</string>
+    <string name="rate_me_title">ให้คะแนนแอพลิเคชั่น</string>
+    <string name="rate_me_message">เพื่อเป็นกำลังใจให้เราพัฒนาแอพลิเคชั่นต่อไป กรุณาช่วยให้คะแนนแอพพลิเคชั่นเราด้วยครับ</string>
+    <string name="rate_me_ok">ตกลงให้คะแนน</string>
+    <string name="rate_me_later">ไม่ตอนนี้</string>
+    <string name="rate_me_no">ไม่ให้คะแนน</string>
+    <string name="btn_ok">ตกลง</string>
+    <string name="btn_cancel">ยกเลิก</string>
+    <string name="wait">กรุณารอสักครู่......</string>
+    <string name="no_image">ไม่พบรูปภาพที่สามารถ ดาวน์โหลดได้ กรุณาลองใหม่กับรูปอื่นๆ</string>
+    <string name="download_fail">ไม่สามารถดาวน์โหลดรูปภาพได้ กรุณาตรวจสอบการเชื่อมต่ออินเตอร์เน็ต แล้วลองใหม่อีกครั้ง</string>
+    <string name="use_square_title">ใช้ภาพจตุรัส</string>
+    <string name="use_square_desc">แปลงรูปเล็กๆ เป็นจตุรัสก่อนเรียงภาพ</string>
+    <string name="use_grid_title">เรียงแบบตาราง</string>
+    <string name="use_grid_desc">การจัดเรียงภาพเล็กๆ เป็นแบบตาราง</string>
+    <string name="shape">รูปทรง</string>
+    <string name="custom">สร้างเอง</string>
+    <string name="border">กรอบ</string>
+    <string name="tileStyle">เรียงภาพตาราง</string>
+    <string name="background">พื้นหลัง</string>
+     <string name="background_color">สีพื้นหลัง</string>
+
+
+    <string name="quit">เลิกเล่น</string>
+    <string name="really_quit">ต้องการออกจากแอพพลิเคชัน ?</string>
+    <string name="yes">ออกจากแอพฯ</string>
+    <string name="no">อยู่ต่อ</string>
+
+
+    <string name="dialog_set_number">ตั้งค่า</string>
+    <string name="dialog_cancel">ยกเลิก</string>
+    <string name="dialog_picker_title">จำนวนภาพ</string>
+    <string name="app_shapecollage">เรียงภาพเป็นรูปทรง</string>
+    <string name="done">เสร็จ</string>
+    <string name="textsize">ขนาด</string>
+    <string name="square">จตุรัส</string>
+
+    <string name="share_msg">เรียงภาพเป็นรูปทรง</string>
+    <string name="warn_exit">กดอีกครั้งเพื่อกลับหน้าหลัก</string>
+    <string name="action_select_all">เลือกทั้งหมด</string>
+    <string name="action_select">เลือก</string>
+    <string name="action_reset_list">เริ่มใหม่</string>
+    <string name="action_save">บันทึก</string>
+    <string name="action_discard">ละทิ้ง</string>
+    <string name="xmas">คริตสมาส</string>
+    <string name="ok">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="processing_image">กำลังประเมินผลรูปภาพ</string>
+    <string name="downloading_image">กำลังดาว์นโหลดรูปภาพ</string>
+    <string name="pick_image_intent_text">เลือกรูปภาพ</string>
+    <string name="arts">เลือกแบบ</string>
+    <string name="select_pictures">เลือกรูปภาพ</string>
+    <string name="newLine">Text</string>
+    <string name="please_wait">กรุณารอสักครู่</string>
+    <string name="sponsored">ผู้สนับสนุน</string>
+    <string name="try_more">ลองแอพอื่นๆ</string>
+    <string name="loading_image">กำลังโหลดรูปภาพ</string>
+    <string name="gen_filter_thumb">กำลังเตรียมภาพฟิลเตอร์</string>
+</resources>

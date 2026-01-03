@@ -1,0 +1,4 @@
+include ':holoColorPicker', ':imageFilter', ':cropLib'
+include ':newQuickAction3D'
+include ':shapeCollage'
+include ':numberPickerLib'

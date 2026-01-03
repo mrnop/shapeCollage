@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "name" : "Heart1",
+  "icon" : "icon.png",
+  "description" : "Text",
+  "type" : "ShapeCollage",
+  "init_value" : {
+    "inputType" : "multiple_picture",
+    "borderColor" : "#FFFFFF",
+    "borderSize" : 20 ,
+    "blackground" : "bg_07.png",
+    "gridSize" : 13,
+    "collageSize" : 180,
+     "shape" :  {
+       "shapeType":"Bundle",
+       "folder":"2_hearts",
+       "path":"2_hearts/heart3.png"
+
+     }
+  }
+
+}
